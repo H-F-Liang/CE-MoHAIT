@@ -212,7 +212,7 @@ for exp_experts_num in [4]:
             )
             setup_seed(seed=seed)
             ############################################## GENERATE EXPERTS ##############################################
-            # 对比时采用IJCAI2022的专家设置 专家数量 4, 能力采样 N(70, 5)
+            # 对比时采用HAIT的专家设置 专家数量 4, 能力采样 N(70, 5)
             # 其余实验专家数量[2 4 6 8], 能力采样 N(25, 5)
             experts = [generate_ability_IJCAI(num_class, mean=mean, std_dev=std_dev) for i in range(num_expert)]
             experts_team_upperbound = np.clip(np.array(experts).sum(axis=0), 0, 1).mean()
