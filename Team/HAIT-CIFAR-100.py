@@ -967,7 +967,7 @@ if __name__ == '__main__':
 
     # mean_full_automation_accuracy = np.mean(full_automation_accuracies)
     # mean_full_automation_accuracy_std = np.std(full_automation_accuracies)
-    # file_path = f"./log/CIFAR-100-exp/IJCAI-result-exp-CIFAR-100.txt"
+    # file_path = f"./log/CIFAR-100-exp/HAIT-result-exp-CIFAR-100.txt"
     # with open(file_path, 'a') as file:
     #     file.write(f"EXPERT NUMBER: One classifier\n")
     #     file.write(f"Classifier Team acc: {mean_full_automation_accuracy:.8f} {mean_full_automation_accuracy_std:.8f}\n")
@@ -989,7 +989,7 @@ if __name__ == '__main__':
     #     mean_moae_accuracy_std = np.std(moae_accuracies)
 
     # moae没有专家能力不同规模单独训练五次
-    # file_path = f"./log/CIFAR-100-exp/IJCAI-result-exp-CIFAR-100.txt"
+    # file_path = f"./log/CIFAR-100-exp/HAIT-result-exp-CIFAR-100.txt"
     # with open(file_path, 'a') as file:
     #     file.write(f"EXPERT NUMBER: {num_experts} classifier\n")
     #     file.write(f"Classifier Team acc: {mean_moae_accuracy:.8f} {mean_moae_accuracy_std:.8f}\n")
@@ -1057,7 +1057,7 @@ if __name__ == '__main__':
 
             mean_our_approach_accuracy = np.mean(our_approach_accuracies)
             mean_our_approach_accuracy_std = np.std(our_approach_accuracies)
-            # file_path = f"./log/CIFAR-100-exp/IJCAI-result-exp-CIFAR-100.txt"
+            # file_path = f"./log/CIFAR-100-exp/HAIT-result-exp-CIFAR-100.txt"
             # with open(file_path, 'a') as file:
             #     file.write(f"EXPERT NUMBER: {num_experts}\n")
             #     file.write(f"EXPERT ABILITY: ({mean}, {std})\n")
@@ -1065,7 +1065,7 @@ if __name__ == '__main__':
             #     # file.write(f"Random Expert acc: {mean_avg_expert_accuracy:.8f} {mean_avg_expert_accuracy_std:.8f}\n")
             #     file.write(f"Expert Team acc: {mean_mohe_accuracy:.8f} {mean_mohe_accuracy_std:.8f}\n")
             #     file.write(f"JSF acc: {mean_jsf_accuracy:.8f} {mean_jsf_accuracy_std:.8f}\n")
-            #     file.write(f"IJCAI acc: {mean_our_approach_accuracy:.8f} {mean_our_approach_accuracy_std:.8f}\n")
+            #     file.write(f"HAIT acc: {mean_our_approach_accuracy:.8f} {mean_our_approach_accuracy_std:.8f}\n")
             #     file.write(f"-------------------------------------------------------------------------------\n")
 
     # table_list = []
