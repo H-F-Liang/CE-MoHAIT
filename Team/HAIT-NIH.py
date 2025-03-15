@@ -1187,7 +1187,7 @@ if __name__ == '__main__':
             # print(tabulate([['Our Approach', mean_our_approach_accuracy, mean_our_approach_coverage]],
             #             headers=['Method', 'Accuracy', 'Coverage']))
             # 文件路径
-            file_path = f"./log/IJCAI-22/all-exp-NIH.txt"
+            file_path = f"./log/NIH-exp/all-exp-NIH.txt"
 
             # 将数据追加写入文件
             with open(file_path, 'a') as file:
@@ -1199,5 +1199,5 @@ if __name__ == '__main__':
                 file.write(f"Full automation: {mean_full_automation_accuracy:.8f} {mean_full_automation_accuracy_std:.8f}\n")
                 file.write(f"MoAE: {mean_moae_accuracy:.8f} {mean_moae_accuracy_std:.8f}\n")
                 file.write(f"MoHE: {mean_mohe_accuracy:.8f} {mean_mohe_accuracy_std:.8f}\n")
-                file.write(f"IJCAI: {mean_our_approach_accuracy:.8f} {mean_our_approach_accuracy_std:.8f}\n")
+                file.write(f"HAIT: {mean_our_approach_accuracy:.8f} {mean_our_approach_accuracy_std:.8f}\n")
                 file.write(f"-------------------------------------------------------------------------------\n")
