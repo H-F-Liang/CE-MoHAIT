@@ -896,9 +896,9 @@ if __name__ == '__main__':
     print(f"Full automation: {mean_full_automation_accuracy:.8f} {mean_full_automation_accuracy_std:.8f}\n")
     print(f"MoAE: {mean_moae_accuracy:.8f} {mean_moae_accuracy_std:.8f}\n")
     print(f"MoHE: {mean_mohe_accuracy:.8f} {mean_mohe_accuracy_std:.8f}\n")
-    print(f"IJCAI: {mean_our_approach_accuracy:.8f} {mean_our_approach_accuracy_std:.8f}\n")
+    print(f"HAIT: {mean_our_approach_accuracy:.8f} {mean_our_approach_accuracy_std:.8f}\n")
     print(f"-------------------------------------------------------------------------------\n")
-    file_path = "./log/IJCAI-22/exp-chaoyang.txt"
+    file_path = "./log/Chaoyang-exp/exp-chaoyang.txt"
 
     with open(file_path, 'a') as file:
         file.write(f"Best expert: {mean_best_expert_accuracy:.8f} {mean_best_expert_accuracy_std:.8f}\n")
@@ -907,5 +907,5 @@ if __name__ == '__main__':
         file.write(f"Full automation: {mean_full_automation_accuracy:.8f} {mean_full_automation_accuracy_std:.8f}\n")
         file.write(f"MoAE: {mean_moae_accuracy:.8f} {mean_moae_accuracy_std:.8f}\n")
         file.write(f"MoHE: {mean_mohe_accuracy:.8f} {mean_mohe_accuracy_std:.8f}\n")
-        file.write(f"IJCAI: {mean_our_approach_accuracy:.8f} {mean_our_approach_accuracy_std:.8f}\n")
+        file.write(f"HAIT: {mean_our_approach_accuracy:.8f} {mean_our_approach_accuracy_std:.8f}\n")
         file.write(f"-------------------------------------------------------------------------------\n")
