@@ -967,7 +967,7 @@ if __name__ == '__main__':
 
     # mean_full_automation_accuracy = np.mean(full_automation_accuracies)
     # mean_full_automation_accuracy_std = np.std(full_automation_accuracies)
-    # file_path = f"/home/userlhf/HAIT/Team/log/CIFAR-100-exp/IJCAI-result-exp-CIFAR-100.txt"
+    # file_path = f"./log/CIFAR-100-exp/IJCAI-result-exp-CIFAR-100.txt"
     # with open(file_path, 'a') as file:
     #     file.write(f"EXPERT NUMBER: One classifier\n")
     #     file.write(f"Classifier Team acc: {mean_full_automation_accuracy:.8f} {mean_full_automation_accuracy_std:.8f}\n")
