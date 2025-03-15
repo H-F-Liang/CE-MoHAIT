@@ -1187,7 +1187,7 @@ if __name__ == '__main__':
             # print(tabulate([['Our Approach', mean_our_approach_accuracy, mean_our_approach_coverage]],
             #             headers=['Method', 'Accuracy', 'Coverage']))
             # 文件路径
-            file_path = f"/home/userlhf/projects/HAIT/TeamV1/Team/log/IJCAI-22/all-exp-NIH.txt"
+            file_path = f"./log/IJCAI-22/all-exp-NIH.txt"
 
             # 将数据追加写入文件
             with open(file_path, 'a') as file:
